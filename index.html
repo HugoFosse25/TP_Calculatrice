@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script type=text/javascript src="source.js" defer></script>
+    <title>TP Calculatrice</title>
 </head>
+
 <body>
-    
+    <div class="Title">
+
+        Calculatrice
+
+    </div>
+    <div class="Values">
+
+        Valeur n°1
+        <input class="textValue" type="number" placeholder="Entrez un nombre" id="Valeur1">
+        <p>
+            <input class="OperationButton" type="button" value="+" id="Add">
+            <input class="OperationButton" type="button" value="-" id="Sub">
+            <input class="OperationButton" type="button" value="*" id="Mult">
+            <input class="OperationButton" type="button" value="/" id="Div">
+
+        </p>
+        Valeur n°2
+        <input class="textValue" type="number" placeholder="Entrez un nombre" id="Valeur2">
+
+    </div>
+    <div class="result">
+
+        <input type="number" id="result">
+
+    </div>
+
 </body>
+
 </html>

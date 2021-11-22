@@ -1,0 +1,33 @@
+.Title{
+
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.Values{
+
+    height: 150px;
+    width: auto;
+    float: left;
+
+}
+
+.result{
+
+    height: 150px;
+    width: 50%;
+    float: right;
+    text-align: center;
+
+}
+
+.textValue{
+
+margin-bottom: 15px;
+margin-left: 5px;
+margin-top: 10px;
+
+}
